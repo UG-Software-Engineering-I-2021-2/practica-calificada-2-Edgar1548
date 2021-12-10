@@ -1,8 +1,11 @@
 package org.example;
 
+import org.apache.tools.ant.taskdefs.Input;
+
 import java.util.AbstractMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.logging.Logger;
 
 public class Principal {
@@ -48,7 +51,7 @@ public class Principal {
        return value;
     }
 
-    public float calculateGrades(final List<Pair<Integer, Float>> examsStudents, final boolean hasReachedMinimumClasses) {
+    public float calculateGrades(final List<Pair<Integer, Float>> examsStudents, String alumno, final boolean hasReachedMinimumClasses) {
         if (!examsStudents.isEmpty()) {
             boolean hasToIncreaseOneExtraPoint = PtosExtraTeachers();
             float gradesSum       = 0f;
@@ -61,6 +64,7 @@ public class Principal {
             if (hasReachedMinimumClasses){
                 if (gradesWeightSum == 100) {
                     if (hasToIncreaseOneExtraPoint) {
+                            logger.info(alumno);
                             return Float.min(10f, gradesSum + 1);
                     } else {
                             return gradesSum;
