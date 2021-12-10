@@ -1,1 +1,4 @@
-org\example\Main.class
+org\example\Pair.class
+org\example\Teacher.class
+org\example\Student.class
+org\example\Principal.class
