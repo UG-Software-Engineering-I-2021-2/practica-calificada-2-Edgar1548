@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="org.example.PrincipalTest">
+        <methods>
+          <include name="calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes"/>
+          <include name="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes"/>
+          <include name="validate_all_exam_grades_weight_over_100"/>
+        </methods>
+      </class> <!-- org.example.PrincipalTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

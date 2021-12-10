@@ -58,24 +58,21 @@ public class Principal {
                 gradesSum += (examGrade.first() * examGrade.second() / 100);
                 gradesWeightSum += examGrade.first();
             }
-            if (gradesWeightSum == 100) {
-                if (hasReachedMinimumClasses) {
+            if (hasReachedMinimumClasses){
+                if (gradesWeightSum == 100) {
                     if (hasToIncreaseOneExtraPoint) {
-                        return Float.min(10f, gradesSum + 1);
+                            return Float.min(10f, gradesSum + 1);
                     } else {
-                        return gradesSum;
+                            return gradesSum;
                     }
+                } else if (gradesWeightSum > 100) {
+                    return -1f;
                 } else {
-                    return 0f;
+                    return -2f;
                 }
-            } else if (gradesWeightSum > 100) {
-                return -1f;
-            } else {
-                return -2f;
             }
-        } else {
-            return 0f;
         }
+        return 0f;
     }
     public static void main(String[] args) {
      System.out.println("Hola");
