@@ -1,64 +1,72 @@
 
-9org.example.Principal#calculateGrades(Ljava/util/List;Z)Fa
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java3 3( "15*Ó
+Korg.example.Principal#calculateGrades(Ljava/util/List;Ljava/lang/String;Z)Fa
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java4 4( "14*Á
+13a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java61 6(BÑÎ
+a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java61 6(D
+%1boolean"*org.example.Principal#ptosExtraTeachers()Z*
+org.example.Principal2ptosExtraTeachers()*
+10*Ó
 2a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaJ J("k
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaI I("k
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaJ J(
-""*Á
-14a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java51 5(BÑÎ
-a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java51 5(D
-%1boolean"*org.example.Principal#PtosExtraTeachers()Z*
-org.example.Principal2PtosExtraTeachers()*
-11*Ó
-3a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaH H("k
-a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaH H(
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaI I(
 ""*±
-15a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java4 4(¾»
+14a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java5 5(¾»
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java4 4($
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java5 5($
 %0boolean"java.util.List#isEmpty()Z*!
 
 examsStudentsjava.util.List2	isEmpty()*
-14
+13
 1*Ó
-5a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaE E("k
+3a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaG G("k
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaE E(
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaG G(
 ""*Ó
-6a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaB B(("k
+5a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaD# D(,"k
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaB B()
-""*ˆ
-7a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java@ @($²
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaD D(-
+""*¢
+6a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaA A("”
+‘
+a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaA A("
+%5java.util.logging.Logger"__id*
+""€ý
+a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaA A(/
+
+%6void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
+
+%5java.util.logging.Logger*
+
+alumnojava.lang.String2info(Ljava/lang/String;)²
 ¯
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java@ @(<
-%5float"java.lang.Float#min(FF)F*"
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaB# B(@
+%7float"java.lang.Float#min(FF)F*"
 java.lang.Float*
 ""*
 """k
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java@ @(=
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaB B(A
 ""*Ñ
-11a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java9 9(/“
+10a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java: :(/“
 
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java9 9(/
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java: :(/
 	examGradeorg.example.Pair"__id*
 ""¼
 ¹
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java9 9(/
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java: :(/
 	examGradeorg.example.Pair"
 __arrayGet*!
 
@@ -68,31 +76,32 @@ __arrayGet*!
 3
 5
 6
-7
-12*õ
-12a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java: :(ÕÒ
+11
+1*õ
+11a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java; ;(ÕÒ
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java: :(/
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java; ;(/
 %2java.lang.Integer"*org.example.Pair#first()Ljava/lang/Object;*
 
 	examGradeorg.example.Pair2first()ÕÒ
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java:2 :(D
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java;2 ;(D
 %3java.lang.Float"+org.example.Pair#second()Ljava/lang/Object;*
 
 	examGradeorg.example.Pair2second()ÕÒ
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java;# ;(4
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java<# <(4
 %4java.lang.Integer"*org.example.Pair#first()Ljava/lang/Object;*
 
 	examGradeorg.example.Pair2first()*
-11*Ó
+10*Ó
 1a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaM M("k
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaM M("k
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaM M(
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.javaM M(
 "":
-examsStudentsjava.util.List:
+examsStudentsjava.util.List:
+alumnojava.lang.String:
 ""B
 org.example.Principal

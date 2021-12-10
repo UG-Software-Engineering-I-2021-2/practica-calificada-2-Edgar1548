@@ -1,16 +1,16 @@
 
-*org.example.Principal#PtosExtraTeachers()Za
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java# #($"9*«
+*org.example.Principal#ptosExtraTeachers()Za
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java$ $($"9*«
 2a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java% %(Kõ
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java& &(Kõ
 ò
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java% %(K%
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java& &(K%
 yearlyTeachersjava.util.Map$Entry"__id*
 ""∏
 µ
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java% %(K%
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java& &(K%
 yearlyTeachersjava.util.Map$Entry"
 __arrayGet*
 
@@ -19,15 +19,15 @@ __arrayGet*
 8
 1*∫
 3a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java( ((2ë
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java) )(2ë
 é
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java( ((2
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java) )(2
 teacherorg.example.Pair"__id*
 ""µ
 ≤
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java( ((2
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java) )(2
 teacherorg.example.Pair"
 __arrayGet*
 
@@ -36,77 +36,89 @@ __arrayGet*
 2
 5*÷
 4a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java* *(î
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java+ +(î
 ë
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java* *(
-%5java.util.logging.Logger"__id*
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java+ +(
+%7java.util.logging.Logger"__id*
 ""“œ
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java*$ *(3
-%6java.lang.String"*org.example.Pair#first()Ljava/lang/Object;*
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java+$ +(3
+%8java.lang.String"*org.example.Pair#first()Ljava/lang/Object;*
 
 teacherorg.example.Pair2first()¸˘
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java* *(4
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java+ +(4
 
-%7void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
+%9void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
 
-%5java.util.logging.Logger*
+%7java.util.logging.Logger*
 
-%6java.lang.String2info(Ljava/lang/String;)*
-3*∆
+%8java.lang.String2info(Ljava/lang/String;)*
+3*œ
 5a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java) )(’“
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java* *(ç
+ä
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java) )((
-%4java.lang.Boolean"+org.example.Pair#second()Ljava/lang/Object;*
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java* *($
+%4java.lang.Boolean"__id*
+""’“
+a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java*, *(<
+%5java.lang.Boolean"+org.example.Pair#second()Ljava/lang/Object;*
 
-teacherorg.example.Pair2second()*
+teacherorg.example.Pair2second()ˆÛ
+a
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java* *(=
+%6boolean"-java.lang.Boolean#equals(Ljava/lang/Object;)Z*
+
+%4java.lang.Boolean*
+
+%5java.lang.Boolean2equals(Ljava/lang/Object;)*
 3
 4*Ù
 7a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java'7 '(E„‡
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java(7 ((E„‡
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java'7 '(P
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java(7 ((P
 %3java.util.List"0java.util.Map$Entry#getValue()Ljava/lang/Object;*'
 %
 yearlyTeachersjava.util.Map$Entry2
 getValue()†
 ù
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java' '(Q
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java( ((Q
 teachersjava.util.List"__id*
 
 %3java.util.List*
 3*”
 8a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java& &(‚ﬂ
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java' '(‚ﬂ
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java&# &(:
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java'# '(:
 %2java.lang.Integer".java.util.Map$Entry#getKey()Ljava/lang/Object;*'
 %
 yearlyTeachersjava.util.Map$Entry2getKey()*
 2
 7*Í
 9a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java%N %(^≤
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java&N &(^≤
 Ø
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java%N %(^
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java&N &(^
 %0java.util.Map"__id*/*-
 org.example.Principal"
 allYearsTeachers«ƒ
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java%N %(i
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java&N &(i
 %1java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*
 
 %0java.util.Map2
 entrySet()*
 2*”
 1a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java0 0("k
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java1 1("k
 a
-WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java0 0(
+WD:/IngSoft/PC2/practica-calificada-2-Edgar1548/src/main/java/org/example/Principal.java1 1(
 ""B
 org.example.Principal

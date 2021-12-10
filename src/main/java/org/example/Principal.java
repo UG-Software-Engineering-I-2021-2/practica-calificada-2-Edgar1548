@@ -1,17 +1,15 @@
 package org.example;
 
-import org.apache.tools.ant.taskdefs.Input;
 
 import java.util.AbstractMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 import java.util.logging.Logger;
 
 public class Principal {
     static final Logger logger = Logger.getLogger(Principal.class.getName());
 
-    final private Map<Integer, List<Pair<String, Boolean>>> allYearsTeachers = Map.ofEntries(
+    private final Map<Integer, List<Pair<String, Boolean>>> allYearsTeachers = Map.ofEntries(
             new AbstractMap.SimpleImmutableEntry<>(
                     2020,
                     List.of(
@@ -35,13 +33,13 @@ public class Principal {
         this.yearToCalculate = yearToCalculate;
     }
 
-    public boolean PtosExtraTeachers(){
+    public boolean ptosExtraTeachers(){
         boolean value = false;
         for (Map.Entry<Integer, List<Pair<String, Boolean>>> yearlyTeachers : allYearsTeachers.entrySet()) {
             if (yearToCalculate == yearlyTeachers.getKey()) {
                 List<Pair<String, Boolean>> teachers = yearlyTeachers.getValue();
                 for (Pair<String, Boolean> teacher : teachers) {
-                    if (teacher.second()) {
+                    if (Boolean.TRUE.equals(teacher.second())) {
                         logger.info(teacher.first());
                         value = true;
                     }
@@ -53,7 +51,7 @@ public class Principal {
 
     public float calculateGrades(final List<Pair<Integer, Float>> examsStudents, String alumno, final boolean hasReachedMinimumClasses) {
         if (!examsStudents.isEmpty()) {
-            boolean hasToIncreaseOneExtraPoint = PtosExtraTeachers();
+            boolean hasToIncreaseOneExtraPoint = ptosExtraTeachers();
             float gradesSum       = 0f;
             int   gradesWeightSum = 0;
 
@@ -79,6 +77,6 @@ public class Principal {
         return 0f;
     }
     public static void main(String[] args) {
-     System.out.println("Hola");
+        logger.info("Hola");
     }
 }

@@ -1,84 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Principal.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">practica-calificada-2-Edgar1548</a> &gt; <a href="index.source.html" class="el_package">org.example</a> &gt; <span class="el_source">Principal.java</span></div><h1>Principal.java</h1><pre class="source lang-java linenums">package org.example;
 
+
 import java.util.AbstractMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
 public class Principal {
-<span class="fc" id="L9">    static final Logger logger = Logger.getLogger(Principal.class.getName());</span>
+<span class="fc" id="L10">    static final Logger logger = Logger.getLogger(Principal.class.getName());</span>
 
-<span class="fc" id="L11">    final private Map&lt;Integer, List&lt;Pair&lt;String, Boolean&gt;&gt;&gt; allYearsTeachers = Map.ofEntries(</span>
+<span class="fc" id="L12">    private final Map&lt;Integer, List&lt;Pair&lt;String, Boolean&gt;&gt;&gt; allYearsTeachers = Map.ofEntries(</span>
             new AbstractMap.SimpleImmutableEntry&lt;&gt;(
-<span class="fc" id="L13">                    2020,</span>
-<span class="fc" id="L14">                    List.of(</span>
-<span class="fc" id="L15">                            new Pair&lt;&gt;( &quot;Josefina&quot;, true),</span>
-<span class="fc" id="L16">                            new Pair&lt;&gt;( &quot;Edonisio&quot;, true),</span>
-<span class="fc" id="L17">                            new Pair&lt;&gt;( &quot;Edufasio&quot;, false)</span>
+<span class="fc" id="L14">                    2020,</span>
+<span class="fc" id="L15">                    List.of(</span>
+<span class="fc" id="L16">                            new Pair&lt;&gt;( &quot;Josefina&quot;, true),</span>
+<span class="fc" id="L17">                            new Pair&lt;&gt;( &quot;Edonisio&quot;, true),</span>
+<span class="fc" id="L18">                            new Pair&lt;&gt;( &quot;Edufasio&quot;, false)</span>
                     )
             ),
             new AbstractMap.SimpleImmutableEntry&lt;&gt;(
-<span class="fc" id="L21">                    2019,</span>
-<span class="fc" id="L22">                    List.of(</span>
-<span class="fc" id="L23">                            new Pair&lt;&gt;( &quot;Eduarda&quot;, false),</span>
-<span class="fc" id="L24">                            new Pair&lt;&gt;( &quot;Abelardo&quot;, false),</span>
-<span class="fc" id="L25">                            new Pair&lt;&gt;( &quot;Francisca&quot;, false)</span>
+<span class="fc" id="L22">                    2019,</span>
+<span class="fc" id="L23">                    List.of(</span>
+<span class="fc" id="L24">                            new Pair&lt;&gt;( &quot;Eduarda&quot;, false),</span>
+<span class="fc" id="L25">                            new Pair&lt;&gt;( &quot;Abelardo&quot;, false),</span>
+<span class="fc" id="L26">                            new Pair&lt;&gt;( &quot;Francisca&quot;, false)</span>
                     )
             )
     );
     private final int yearToCalculate;
 
-<span class="fc" id="L31">    public Principal(int yearToCalculate) {</span>
-<span class="fc" id="L32">        this.yearToCalculate = yearToCalculate;</span>
-<span class="fc" id="L33">    }</span>
+<span class="fc" id="L32">    public Principal(int yearToCalculate) {</span>
+<span class="fc" id="L33">        this.yearToCalculate = yearToCalculate;</span>
+<span class="fc" id="L34">    }</span>
 
-    public boolean PtosExtraTeachers(){
-<span class="fc" id="L36">        boolean value = false;</span>
-<span class="fc bfc" id="L37" title="All 2 branches covered.">        for (Map.Entry&lt;Integer, List&lt;Pair&lt;String, Boolean&gt;&gt;&gt; yearlyTeachers : allYearsTeachers.entrySet()) {</span>
-<span class="fc bfc" id="L38" title="All 2 branches covered.">            if (yearToCalculate == yearlyTeachers.getKey()) {</span>
-<span class="fc" id="L39">                List&lt;Pair&lt;String, Boolean&gt;&gt; teachers = yearlyTeachers.getValue();</span>
-<span class="fc bfc" id="L40" title="All 2 branches covered.">                for (Pair&lt;String, Boolean&gt; teacher : teachers) {</span>
-<span class="fc bfc" id="L41" title="All 2 branches covered.">                    if (teacher.second()) {</span>
-<span class="fc" id="L42">                        logger.info(teacher.first());</span>
-<span class="fc" id="L43">                        value = true;</span>
+    public boolean ptosExtraTeachers(){
+<span class="fc" id="L37">        boolean value = false;</span>
+<span class="fc bfc" id="L38" title="All 2 branches covered.">        for (Map.Entry&lt;Integer, List&lt;Pair&lt;String, Boolean&gt;&gt;&gt; yearlyTeachers : allYearsTeachers.entrySet()) {</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">            if (yearToCalculate == yearlyTeachers.getKey()) {</span>
+<span class="fc" id="L40">                List&lt;Pair&lt;String, Boolean&gt;&gt; teachers = yearlyTeachers.getValue();</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">                for (Pair&lt;String, Boolean&gt; teacher : teachers) {</span>
+<span class="fc bfc" id="L42" title="All 2 branches covered.">                    if (Boolean.TRUE.equals(teacher.second())) {</span>
+<span class="fc" id="L43">                        logger.info(teacher.first());</span>
+<span class="fc" id="L44">                        value = true;</span>
                     }
-<span class="fc" id="L45">                }</span>
+<span class="fc" id="L46">                }</span>
             }
-<span class="fc" id="L47">        }</span>
-<span class="fc" id="L48">       return value;</span>
+<span class="fc" id="L48">        }</span>
+<span class="fc" id="L49">       return value;</span>
     }
 
-    public float calculateGrades(final List&lt;Pair&lt;Integer, Float&gt;&gt; examsStudents, final boolean hasReachedMinimumClasses) {
-<span class="fc bfc" id="L52" title="All 2 branches covered.">        if (!examsStudents.isEmpty()) {</span>
-<span class="fc" id="L53">            boolean hasToIncreaseOneExtraPoint = PtosExtraTeachers();</span>
-<span class="fc" id="L54">            float gradesSum       = 0f;</span>
-<span class="fc" id="L55">            int   gradesWeightSum = 0;</span>
+    public float calculateGrades(final List&lt;Pair&lt;Integer, Float&gt;&gt; examsStudents, String alumno, final boolean hasReachedMinimumClasses) {
+<span class="fc bfc" id="L53" title="All 2 branches covered.">        if (!examsStudents.isEmpty()) {</span>
+<span class="fc" id="L54">            boolean hasToIncreaseOneExtraPoint = ptosExtraTeachers();</span>
+<span class="fc" id="L55">            float gradesSum       = 0f;</span>
+<span class="fc" id="L56">            int   gradesWeightSum = 0;</span>
 
-<span class="fc bfc" id="L57" title="All 2 branches covered.">            for (Pair&lt;Integer, Float&gt; examGrade : examsStudents) {</span>
-<span class="fc" id="L58">                gradesSum += (examGrade.first() * examGrade.second() / 100);</span>
-<span class="fc" id="L59">                gradesWeightSum += examGrade.first();</span>
-<span class="fc" id="L60">            }</span>
-<span class="fc bfc" id="L61" title="All 2 branches covered.">            if (gradesWeightSum == 100) {</span>
-<span class="fc bfc" id="L62" title="All 2 branches covered.">                if (hasReachedMinimumClasses) {</span>
-<span class="fc bfc" id="L63" title="All 2 branches covered.">                    if (hasToIncreaseOneExtraPoint) {</span>
-<span class="fc" id="L64">                        return Float.min(10f, gradesSum + 1);</span>
+<span class="fc bfc" id="L58" title="All 2 branches covered.">            for (Pair&lt;Integer, Float&gt; examGrade : examsStudents) {</span>
+<span class="fc" id="L59">                gradesSum += (examGrade.first() * examGrade.second() / 100);</span>
+<span class="fc" id="L60">                gradesWeightSum += examGrade.first();</span>
+<span class="fc" id="L61">            }</span>
+<span class="fc bfc" id="L62" title="All 2 branches covered.">            if (hasReachedMinimumClasses){</span>
+<span class="fc bfc" id="L63" title="All 2 branches covered.">                if (gradesWeightSum == 100) {</span>
+<span class="fc bfc" id="L64" title="All 2 branches covered.">                    if (hasToIncreaseOneExtraPoint) {</span>
+<span class="fc" id="L65">                            logger.info(alumno);</span>
+<span class="fc" id="L66">                            return Float.min(10f, gradesSum + 1);</span>
                     } else {
-<span class="fc" id="L66">                        return gradesSum;</span>
+<span class="fc" id="L68">                            return gradesSum;</span>
                     }
+<span class="fc bfc" id="L70" title="All 2 branches covered.">                } else if (gradesWeightSum &gt; 100) {</span>
+<span class="fc" id="L71">                    return -1f;</span>
                 } else {
-<span class="fc" id="L69">                    return 0f;</span>
+<span class="fc" id="L73">                    return -2f;</span>
                 }
-<span class="fc bfc" id="L71" title="All 2 branches covered.">            } else if (gradesWeightSum &gt; 100) {</span>
-<span class="fc" id="L72">                return -1f;</span>
-            } else {
-<span class="fc" id="L74">                return -2f;</span>
             }
-        } else {
-<span class="fc" id="L77">            return 0f;</span>
         }
+<span class="fc" id="L77">        return 0f;</span>
     }
     public static void main(String[] args) {
-<span class="nc" id="L81">     System.out.println(&quot;Hola&quot;);</span>
-<span class="nc" id="L82">    }</span>
+<span class="nc" id="L80">        logger.info(&quot;Hola&quot;);</span>
+<span class="nc" id="L81">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
